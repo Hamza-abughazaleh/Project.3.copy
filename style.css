@@ -1,0 +1,622 @@
+
+/******************************/
+.container5 {
+  position: relative;
+  width: 100%;
+ 
+}
+
+
+
+.overlay50 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(0,0,0,0.10);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  
+}
+.overlay51{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(0,0,0,0.10);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  
+}
+
+.container5:hover .overlay50 {
+  height: 36.5vh;
+}
+.container5:hover .overlay51 {
+  height: 77vh;
+}
+
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+/******************************/
+
+body{
+font-family: 'Playfair Display', serif;
+
+}
+
+
+/* ...............body............*/
+.main{
+margin:0;
+padding:0;
+}
+/*..............End  body...............*/
+
+
+
+/* .......................Header...............*/
+
+
+
+
+
+#img-logo{
+ width:10%; 
+height:15%;
+}
+.linkcolor{
+
+color:white;
+padding:8px;
+
+}
+.scrolllink{
+color:black;
+padding:8px;
+}
+.scrolllink:hover {
+color:gray;
+text-decoration:none;
+}
+
+.scroll{
+background-color:white;
+
+}
+
+.linkcolor:hover {
+color:gray;
+text-decoration:none;
+}
+header{
+background-image:url("img/breather-7170.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+width:100%;
+height:100vh;
+z-index:-10;
+
+}
+.overlay{
+background-color: rgb(0,0,0,0.5);
+width:100%;
+height:100%;
+z-index:-5;
+}
+#p-nav
+{
+padding-top:140px;
+}
+
+h5{
+
+padding-top:300px;
+}
+
+/* .......5.................. End Header ....................*/
+
+/*..............text under header................*/
+
+h2{
+padding-top:25px;
+}
+
+.div-mid{
+width:50%;
+margin:auto;
+
+}
+
+/*..............End text under header................*/
+
+h2.form{
+padding-top:25px;
+}
+
+
+/*................. Icon(bag....) ..................*/
+
+.div-fontas
+{
+color:white;
+margin-top:20px;
+background-image:url("img/imageedit_6_7933033619.png");
+padding:70px;
+}
+
+.span-i
+{
+display:inline-block;
+padding:10px;
+}
+
+.span-i-size{
+font-size:50px;
+}
+
+.img-slide{
+background-image:url("img/bg-pattern.jpg"); 
+width:100%;
+height:350px;
+}
+.a-img-slide{
+font-size:30px;
+padding:8% 15% 6% 15%;
+text-align:center;
+}
+
+
+
+/*.................End Icon(bag....) ..................*/
+
+/*...........................*/
+
+
+/*.............................*/
+.div-log
+{
+margin-top:3%;
+padding-left:9%;
+}
+.img-div-log{
+ width:300px; 
+ height:150px;
+
+}
+.div-pic{
+
+padding:2% 6% 0 6%;
+}
+.pic-seq{
+padding-top:9%;
+}
+
+
+.div-cards
+{
+margin-top:5%;
+background-color:#FAFAFA;
+padding-top:3%;
+}
+
+.div-cards2
+{
+padding-top:5%;
+padding-bottom:5%;
+width:93%;
+
+margin:auto;
+z-index:-10;
+
+}
+
+
+.btn-xl {
+   position:absolute;
+   margin:47% 0 0 2%;
+}
+
+.btn-xl2 {
+  width:200px;
+  font-size:20px;
+}
+
+.div-form
+{
+
+background-color:#F6F6F6;
+padding:7% ;
+}
+
+.overlay2{
+
+background-color: rgb(0,0,0,0.5);
+width:100%;
+height:100%;
+z-index:-5;
+}
+
+footer{
+background-image:url("img/imageedit_33_5124745339.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+color:white;
+width:100%;
+z-index:-10;
+}
+
+footer a{
+color:#003599;
+
+}
+
+footer img{
+ width:75px;
+ height:75px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#img-logo{
+ width:20%; 
+height:20%;
+}
+h5{
+font-size:10px;
+padding-top:80px;
+}
+h1{
+font-size:15px;
+}
+.div-log
+{
+margin-top:3%;
+
+}
+.img-div-log{
+ width:200px; 
+ height:150px;
+
+}
+
+.div-gallery
+{
+background-image:url("img/imageedit_25_3853594858.png");
+background-repeat: no-repeat;
+background-size:100% 100%;
+height:450px;
+max-width: 100%;
+}
+
+.div-fontas
+{
+color:white;
+margin-top:20px;
+background-image:url("img/imageedit_6_7933033619.png");
+padding:20px;
+}
+.btn-xl {
+   position:absolute;
+   margin:115px 0 0 2%;
+}
+
+#p-nav
+{
+display:none;
+}
+
+
+
+.span-i
+{
+display:inline-block;
+
+}
+
+footer img{
+ width:60px;
+ height:60px;
+ padding-top:10px;
+}
+header{
+background-image:url("img/breather-7170.jpg");
+background-repeat: no-repeat;
+background-size:100%;
+width:100%;
+height:40vh;
+z-index:-10;
+
+}
+
+}
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+#img-logo{
+ width:20%; 
+height:20%;
+}
+h5{
+font-size:10px;
+padding-top:80px;
+}
+h1{
+font-size:15px;
+}
+.div-log
+{
+margin-top:3%;
+
+}
+
+.div-gallery
+{
+background-image:url("img/imageedit_25_3853594858.png");
+background-repeat: no-repeat;
+background-size:100% 100%;
+height:450px;
+max-width: 100%;
+}
+
+.div-fontas
+{
+color:white;
+margin-top:20px;
+background-image:url("img/imageedit_6_7933033619.png");
+padding:20px;
+}
+.btn-xl {
+   position:absolute;
+   margin:140px 0 0 2%;
+}
+
+#p-nav
+{
+
+display:none;
+}
+
+
+
+.span-i
+{
+display:inline-block;
+
+}
+
+footer img{
+ width:70px;
+ height:70px;
+ padding-top:10px;
+}
+header{
+background-image:url("img/breather-7170.jpg");
+background-repeat: no-repeat;
+background-size:100%;
+width:100%;
+height:35vh;
+z-index:-10;
+
+}
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+#img-logo{
+ width:20%; 
+height:20%;
+}
+h5{
+font-size:20px;
+padding-top:150px;
+}
+h1{
+font-size:30px;
+}
+.div-log
+{
+margin-top:3%;
+margin-right:1%;
+padding-left:7%;
+}
+
+
+.img-div-log{
+ width:150px; 
+ height:150px;
+
+}
+
+.div-gallery
+{
+background-image:url("img/imageedit_25_3853594858.png");
+background-repeat: no-repeat;
+background-size:100% 100%;
+height:450px;
+max-width: 100%;
+}
+
+.div-fontas
+{
+color:white;
+margin-top:20px;
+background-image:url("img/imageedit_6_7933033619.png");
+padding:20px;
+}
+.btn-xl {
+   position:absolute;
+   margin:90px 0 0 2%;
+}
+
+#p-nav
+{
+padding-top:50px;
+font-size:15px;
+}
+
+.card-size{
+height:276px;
+}
+.card-size2{
+height:276px;
+}
+
+.span-i
+{
+display:inline-block;
+
+
+}
+.span-i-size{
+font-size:50px;
+margin-left:20%;
+}
+
+footer img{
+ width:70px;
+ height:70px;
+ padding-top:10px;
+}
+header{
+background-image:url("img/breather-7170.jpg");
+background-repeat: no-repeat;
+background-size:100%;
+width:100%;
+height:40vh;
+z-index:-10;
+
+}
+
+}
+
+@media only screen and (min-device-width : 800px) and (max-device-width : 1280px) {
+
+h5{
+font-size:20px;
+padding-top:190px;
+}
+h1{
+font-size:30px;
+}
+
+footer img{
+ width:80px;
+ height:80px;
+ padding-top:10px;
+}
+
+.btn-xl {
+   position:absolute;
+   margin:90px 0 0 2%;
+}
+
+
+}
+
+@media only screen and (min-device-width : 980px) and (max-device-width : 1280px) {
+h5{
+font-size:25px;
+padding-top:220px;
+}
+h1{
+font-size:35px;
+}
+
+.card-size2{
+height:276px;
+}
+.btn-xl {
+   position:absolute;
+   margin:130px 0 0 2%;
+}
+
+
+}
+
+
+@media only screen and (min-device-width : 1280px) {
+h5{
+font-size:25px;
+padding-top:270px;
+}
+h1{
+font-size:35px;
+}
+
+.card-size{
+height:178px;
+}
+.card-size2{
+height:178px;
+}
+.btn-xl {
+   position:absolute;
+   margin:190px 0 0 2%;
+}
+
+.div-log
+{
+margin-top:3%;
+margin-right:3%;
+padding-left:7%;
+}
+.span-i
+{
+display:inline-block;
+
+}
+
+.span-i-size{
+font-size:55px;
+}
+
+
+
+}
+
+
+@media only screen and (width :1920px) {
+.btn-xl {
+   position:absolute;
+   margin:320px 0 0 2%;
+}
+
+#p-nav
+{
+padding-top:180px;
+}
+
+h5{
+font-size:40px;
+padding-top:400px;
+}
+h1{
+font-size:55px;
+}
+.card-size{
+height:200px;
+}
+.card-size2{
+height:200px;
+}
+
+
+}
+
+
+
